@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+body {
+    background-color: white;
+    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    font-family: "League Spartan", sans-serif;
+    min-height: 90vh;
+    margin: 5rem 12rem 0;
+    display: grid;
+}
+
+.top {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.description {
+    text-align: left;
+    color: hsl(300, 43%, 22%);
+    padding-right: 10rem;
+}
+
+.description h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    width: 20rem;
+}
+
+.description p {
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    font-size: large;
+    width: 28rem;
+    line-height: 1.5rem;
+}
+
+.ratings {
+    padding-top: 3em;
+    width: 600px;
+}
+
+.rating-card {
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+    font-size: 13px;
+    padding: 0.05rem 1.5rem;
+    margin-bottom: 0.8rem;
+    border-radius: 10px;
+    align-items: center;
+    width: 400px;
+}
+
+.star-icon {
+    margin-right: 1rem;
+}
+
+#rating-card2 {
+    margin-left: 1.5rem;
+}
+
+#rating-card3 {
+    margin-left: 3rem;
+}
+
+.bottom {
+    display: flex;
+}
+
+.review-card {
+    background-color: hsl(300, 43%, 22%);
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    width: 370px;
+    height: 250px;
+}
+
+.reviewer-info {
+    display: flex;
+    padding: 2em 2em 0;
+    font-size: 15px;
+}
+
+.reviewer-info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+}
+
+.reviewer-info p {
+    color: white;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
+.reviewer-info span{
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.review {
+    color: white;
+    text-align: left;
+    padding: 0 2em;
+    line-height: 1.5em;
+    font-size: 16.5px;
+}
+
+#review-card2 {
+    margin-top: 1.5rem;
+}
+
+#review-card3 {
+    margin-top: 3rem;
+}
